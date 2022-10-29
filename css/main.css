@@ -255,20 +255,6 @@
     background-color: #FFFFFF;
   }
 
-.client-background {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
-    height: 90px;
-    border: 1px solid rgba(175, 177, 184, 1);
-    border-radius: 4px;
-}
-
-.client-background:hover {
-    border-color: #188CE8;
- }
-
 .client-box:hover {
     color: var(--accent-color);
 }
@@ -277,11 +263,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+ 
+    width: 170px;
+    height: 90px;
+    border: 1px solid rgba(175, 177, 184, 1);
+    border-radius: 4px;
     fill: var(--secondary-font-color);
 }
 
 .client-icon:hover {
     fill: var(--accent-color);
+    border-color: #188CE8;
 }
 
 

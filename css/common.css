@@ -150,6 +150,7 @@ button{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    font-style: var(--primary-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
