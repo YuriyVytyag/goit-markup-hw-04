@@ -93,9 +93,9 @@ button{
     align-items: center;
 }
 
-.auth-nav .item + .item{
-    margin-left: 50px;
-}
+/* .auth-nav .item + .item{
+    margin-left: 30px;
+} */
 
 .page-header{
     display: flex;
@@ -139,6 +139,10 @@ button{
 
 .contact-item:hover {
     color: var(--accent-color);
+}
+
+.contact-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .menu-contact {
