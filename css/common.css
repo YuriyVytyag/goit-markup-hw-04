@@ -259,12 +259,19 @@ button{
 
 .footer-container{
     display: flex;
+    align-items: baseline;
+}
+
+.invite {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 210px;
+
+    margin-left: 70px;
 }
 
 .footer-header {
-    display: flex;
     margin-bottom: 20px;
-
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 14px;
@@ -275,20 +282,9 @@ button{
     color: var(--white-color);
  }
 
-.invite {
-    display: flex;
-    flex-direction: column;
-    width: 210px;
-
-    margin-left: 70px;
-    margin-top: 12px;
-}
-
 .footer-icons {
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .footer-icon {
